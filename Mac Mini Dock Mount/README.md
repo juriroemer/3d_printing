@@ -4,6 +4,8 @@ This lets you mount your [Hagibis Mac Mini Docking Station](https://de.aliexpres
 
 The model was made to fit the **MC25 PRO** model, but should fit other models (as long as the USB C ports on the back are at the same position). The HDD/SSD hatch is still accessible when mounted (see below). You will need 4 screws (the screw holes have a diameter of about 2.2mm).
 
+*Note*: The code isn't the tidiest, as I this was my first openSCAD project. I might revisit and tidy it up in the future.
+
 ![Model](model.png)
 
 

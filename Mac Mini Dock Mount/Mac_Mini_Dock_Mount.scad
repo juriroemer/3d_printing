@@ -93,21 +93,22 @@ union(){
 x=100;    
     
 translate([-x,0,0]) color("green")
-hull() {
-translate([0,35,0]) cylinder(h=20, r=x);
-translate([0,155,0]) cylinder(h=20, r=x);
-}
+    hull() {
+        translate([0,35,0]) cylinder(h=20, r=x);
+        translate([0,155,0]) cylinder(h=20, r=x);
+    }
 
 translate([-x+400,0,0]) color("green")
-hull() {
-translate([0,35,0]) cylinder(h=20, r=x);
-translate([0,155,0]) cylinder(h=20, r=x);
-}
+    hull() {
+        translate([0,35,0]) cylinder(h=20, r=x);
+        translate([0,155,0]) cylinder(h=20, r=x);
+    }
 
 translate([-x+105,-100,0]) color("green") rotate(270)
-hull() {
-translate([0,35,0]) cylinder(h=20, r=x);
-translate([0,155,0]) cylinder(h=20, r=x);
-}}
+    hull() {
+        translate([0,35,0]) cylinder(h=20, r=x);
+        translate([0,155,0]) cylinder(h=20, r=x);
+    }
+}
 
 }
