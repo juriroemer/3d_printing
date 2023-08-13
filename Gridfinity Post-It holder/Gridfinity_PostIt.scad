@@ -30,7 +30,7 @@ intersection() {
         }
 
         // Post-Its
-        translate([-postit_xy/2,-postit_xy/2,7]){ cube([postit_x,postit_y,49.1]);}
+        translate([-postit_x/2,-postit_y/2,7]){ cube([postit_x,postit_y,49.1]);}
 
 
     }
